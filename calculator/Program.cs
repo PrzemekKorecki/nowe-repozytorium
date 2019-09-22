@@ -16,6 +16,7 @@ namespace calculator
                 Console.WriteLine("0. Wyjście");
                 Console.WriteLine("1. Dodawanie");
                 Console.WriteLine("2. Odejmowanie");
+                Console.WriteLine("3. Mnozenie");
                 int menuOption = Convert.ToInt32(Console.ReadLine());
                 if (menuOption==0)
                 {
